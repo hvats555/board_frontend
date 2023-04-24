@@ -1,0 +1,26 @@
+$textColorLight: #858585;
+
+.social__btn {
+    background-color: #fff;
+    color: $textColorLight;
+    border-radius: 10px;
+    padding: 10px 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        color: #000;
+        cursor: pointer;
+    }
+
+    &>img {
+        margin-right: 10px;
+    }
+
+    @media only screen and (max-width: 450px) {
+        & {
+            margin-bottom: 10px;
+        }
+    }
+}

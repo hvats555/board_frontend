@@ -1,0 +1,11 @@
+.infobar__parent {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 1280px) {
+        & {
+            flex-wrap: wrap;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+$headingFont: 'Montserrat', sans-serif;
+
+.btn {
+    font-family: $headingFont;
+    font-size: 16px;
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
+
+    &:hover {
+        font-weight: 700;
+        background-color: #181818;
+    }
+}

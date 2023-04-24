@@ -1,0 +1,11 @@
+$linkColorBlue: #346BD4;
+
+.link {
+    text-decoration: none;
+    color: $linkColorBlue;
+
+    &:hover {
+        color: #085bf5;
+        cursor: pointer;
+    }
+}
