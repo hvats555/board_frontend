@@ -65,7 +65,7 @@ for (let i = 0; i < 12; ++i) {
 
 function LineChart() {
   let [chartData, setChartData] = useState({
-    labels: [],
+    labels: ['', 'Week 1', 'Week 2', 'Week 3', 'Week 4'],
     datasets: [
         {
           label: 'Guest',
