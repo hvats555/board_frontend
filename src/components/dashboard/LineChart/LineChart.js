@@ -69,7 +69,7 @@ function LineChart() {
     datasets: [
         {
           label: 'Guest',
-          data: [0,0,0,0,0,0],
+          data: [302,342,235,471,303,0],
           borderColor: "#E9A0A0",
           backgroundColor: "#E9A0A0",
           fill: false,
@@ -77,7 +77,7 @@ function LineChart() {
           tension: 0.4
         }, {
           label: 'User',
-          data: [0,0,0,0,0,0],
+          data: [0,496,342,212,168,268],
           borderColor: "#9BDD7C",
           backgroundColor: "#9BDD7C",
           cubicInterpolationMode: 'monotone',

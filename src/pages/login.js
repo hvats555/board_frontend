@@ -113,7 +113,7 @@ function Login() {
               <Button value={"Sign In"} onClick={handleLogin}/>
             </div>
 
-            <div className={styles.signin__register}>Don't have and account? <LinkBlue href="/signup">Register here</LinkBlue></div>
+            <div className={styles.signin__register}>Don&apos;t have and account? <LinkBlue href="/signup">Register here</LinkBlue></div>
           </div>
         </div>
       </div>

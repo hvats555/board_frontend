@@ -1,16 +1,14 @@
-import Link from "next/link"
+import Link from "next/link";
+import { useEffect } from "react";
 
 export default function Home() {
   return (
     <>
-      Home
+      Hi there, visit to 
       <div>
         <Link href="/login">Login</Link>
       </div>
-
-      <div>
-        <Link href="/dashboard">Dashboard</Link>
-      </div>
+      to continue
     </>
   )
 }
